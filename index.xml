@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title></title>
     <link>https://zhenggengqiong.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 May 2020 22:36:33 +0800</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 19 May 2020 22:36:33 +0800</pubDate>
       
       <guid>https://zhenggengqiong.github.io/post/blog/</guid>
-      <description> 欢迎来到我的博客 想了好久想搭建一个自己的博客，拖了好久，今天终于搞好了=-= hugo框架，部署github服务器，主题是anatole 有时间可以回顾一下搭建个人博客的过程 感谢B站「CodeSheep」的教程，链接如下 手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo生活日常 </description>
+      <description> 欢迎来到我的博客 想了好久想搭建一个自己的博客，拖了好久，今天终于搞好了=-= hugo框架，部署github服务器，主题是anatole 有时间可以回顾一下搭建个人博客的过程 感谢B站「CodeSheep」的教程，链接如下 手把手教你从0开始搭建自己的个人博客 |第二种姿势 | hugo生活日常 现在只是会初步搭建博客，还有很多要学的，配置了名称图片，还不会更新，上面的菜单也不知道怎么弄。 路还很长，继续学习。 </description>
     </item>
     
   </channel>
