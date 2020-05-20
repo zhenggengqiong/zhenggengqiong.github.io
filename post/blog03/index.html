@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <title> ZhengGengqiong | Posts </title>
+    <title> ZhengGengqiong | hogo个人博客的后续更新操作 </title>
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.55.5" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <meta name="description" content="ZhengGengqiong">
     
@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://zhenggengqiong.github.io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://zhenggengqiong.github.io/favicon-16x16.png">
 
-    <link rel="canonical" href="https://zhenggengqiong.github.io/post/">
+    <link rel="canonical" href="https://zhenggengqiong.github.io/post/blog03/">
 </head><body><div class="sidebar animated fadeInDown">
     <div class="logo-title">
       <div class="title">
@@ -50,38 +50,64 @@
 </div>
             <div class="autopagerize_page_element">
                 <div class="content">
-<div class="archive animated fadeInDown">
-   
-    <ul class="list-with-title">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>hogo个人博客的后续更新操作
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, May 20, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
+        </div>
+        
+        </div>
+
+    
+
+<h4 id="搭建完博客可以访问后兴奋了半天-但是半天没搞懂第二篇博客咋放上去-指令全部执行一遍又不太对">搭建完博客可以访问后兴奋了半天，但是半天没搞懂第二篇博客咋放上去，指令全部执行一遍又不太对。</h4>
+
+<h4 id="在b站教程视频下面翻了评论-又去别的博客里转了转-终于get了更新博客的操作">在B站教程视频下面翻了评论，又去别的博客里转了转，终于get了更新博客的操作。</h4>
+
+<h6 id="以下全部是本人初学的经验-只是一个记录总结的过程-且希望给需要的人一点帮助-如有错误请指正"><em>以下全部是本人初学的经验，只是一个记录总结的过程，且希望给需要的人一点帮助，如有错误请指正</em></h6>
+
+<ul>
+<li><h3 id="在myblog根目录下重新部署">在myblog根目录下重新部署</h3>
+
+<pre><code>hugo --theme=anatole --baseUrl=&quot;https://zhenggengqiong.github.io/&quot; --buildDrafts
+</code></pre></li>
+
+<li><h3 id="cd到public下分别执行以下命令">cd到public下分别执行以下命令</h3>
+
+<pre><code>git init
+</code></pre>
+
+<pre><code>git add .
+</code></pre>
+
+<pre><code>git commit -m &quot;blog02&quot;
+</code></pre>
+
+<pre><code>git push -u origin master
+</code></pre></li>
+</ul>
+
+<h4 id="执行成功后-过几秒再刷新你的博客就会更新啦">执行成功后，过几秒再刷新你的博客就会更新啦</h4>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
            
-      <div class="listing-title">2020</div>
-      
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://zhenggengqiong.github.io/post/blog03/" title="hogo个人博客的后续更新操作">hogo个人博客的后续更新操作</a>
-              <div class="post-time"><span class="date">May 20</span></div>
-            </div>
-          </div>
-    </ul>
     
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://zhenggengqiong.github.io/post/blog02/" title="基于Hugo的个人博客搭建(mac)">基于Hugo的个人博客搭建(mac)</a>
-              <div class="post-time"><span class="date">May 20</span></div>
-            </div>
-          </div>
-    </ul>
-    
-      <ul class="listing">
-        <div class="listing-item">
-            <div class="listing-post"><a href="https://zhenggengqiong.github.io/post/blog/" title="Hello myblog">Hello myblog</a>
-              <div class="post-time"><span class="date">May 19</span></div>
-            </div>
-          </div>
-    </ul>
-    
-    
-  </div>
+</div>
+
 
                 </div>
             </div>

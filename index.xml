@@ -6,10 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2020 10:03:39 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 13:22:46 +0800</lastBuildDate>
     
 	<atom:link href="https://zhenggengqiong.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hogo个人博客的后续更新操作</title>
+      <link>https://zhenggengqiong.github.io/post/blog03/</link>
+      <pubDate>Wed, 20 May 2020 13:22:46 +0800</pubDate>
+      
+      <guid>https://zhenggengqiong.github.io/post/blog03/</guid>
+      <description> 搭建完博客可以访问后兴奋了半天，但是半天没搞懂第二篇博客咋放上去，指令全部执行一遍又不太对。 在B站教程视频下面翻了评论，又去别的博客里转了转，终于get了更新博客的操作。 以下全部是本人初学的经验，只是一个记录总结的过程，且希望给需要的人一点帮助，如有错误请指正  在myblog根目录下重新部署 hugo --theme=anatole --baseUrl=&amp;quot;https://zhenggengqiong.github.io/&amp;quot; --buildDrafts  cd到public下分别执行以下命令 git init  git add .  git commit -m &amp;quot;blog02&amp;quot;  git push -u origin master   执行成功后，过几秒再刷新你的博客就会更新啦 </description>
+    </item>
     
     <item>
       <title>基于Hugo的个人博客搭建(mac)</title>
