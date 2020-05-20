@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title> ZhengGengqiong | 基于Hugo的个人博客搭建(mac) </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.55.5" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="ZhengGengqiong">
+    
+    <link rel="stylesheet" href="https://zhenggengqiong.github.io/css/style.min.720405633a4cbace7f5de772e546fc46044859184aace3d0f6c70bb33af4e42d.css" integrity="sha256-cgQFYzpMus5/Xedy5Ub8RgRIWRhKrOPQ9scLszr05C0=" type="text/css">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <base href="https://zhenggengqiong.github.io/">
+    
+    <link rel="shortcut icon" href="https://zhenggengqiong.github.io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://zhenggengqiong.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://zhenggengqiong.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://zhenggengqiong.github.io/favicon-16x16.png">
+
+    <link rel="canonical" href="https://zhenggengqiong.github.io/post/blog02/">
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://s1.ax1x.com/2020/05/19/YIXbt0.jpg" alt="profile picture">
+        <h3 title=""><a href="/">郑庚穹</a></h3>
+        <div class="description">
+          <p>ZhengGengqiong</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; ZhengGengqiong 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <div class="nav">
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+
+        
+        <li><a  href="/front/" title="">前端</a></li>
+
+        
+        <li><a  href="/program/" title="">微信小程序</a></li>
+
+        
+    </div>
+</div>
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>基于Hugo的个人博客搭建(mac)
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, May 20, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">1-minute read</span>
+        </div>
+        
+        </div>
+
+    
+
+<h4 id="博客是个人学习总结的利器-尤其是互联网知识-以前试着在csdn写过一些总结-但肯定没有个人博客来的炫酷">博客是个人学习总结的利器，尤其是互联网知识。以前试着在CSDN写过一些总结，但肯定没有个人博客来的炫酷😝</h4>
+
+<h4 id="每次百度技术性的问题-前几名不再是百度知道而是各种博客的总结-现在互联网的发展速度-知识多样化-碎片化-如果不及时进行总结-过一阵还是会去百度问题答案的">每次百度技术性的问题，前几名不再是百度知道而是各种博客的总结。现在互联网的发展速度、知识多样化、碎片化，如果不及时进行总结，过一阵还是会去百度问题答案的。</h4>
+
+<blockquote>
+<p>“对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过分强求，有话要说就写写，没事就歇歇，随意点。因为坚持写作的那一刻起，你就已经开始受益。”</p>
+</blockquote>
+
+<h3 id="此篇博客搭建根据b站up-codesheep-教程">此篇博客搭建根据B站up「CodeSheep」教程</h3>
+
+<h3 id="采用hugo框架下的anatole模板-部署于github">采用Hugo框架下的anatole模板，部署于GitHub</h3>
+
+<ul>
+<li>## <strong><em>前提准备</em></strong></li>
+</ul>
+
+<h4 id="安装有-git-brew">安装有 <strong><em>git</em></strong>、<strong><em>brew</em></strong></h4>
+
+<ul>
+<li>## <strong><em>下载Hugo</em></strong></li>
+</ul>
+
+<h4 id="这里up主采用的方式是brew命令下载-如果是win或网络不好下不来-可以去github找hugo自行下载对应版本">这里Up主采用的方式是brew命令下载，如果是win或网络不好下不来，可以去github找hugo自行下载对应版本</h4>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<h4 id="下载完后输入hugo-version-正常显示版本则表示安装成功">下载完后输入hugo version，正常显示版本则表示安装成功</h4>
+
+<ul>
+<li>## <strong><em>建立我的blog站点</em></strong></li>
+</ul>
+
+<h4 id="执行命令建立我的blog站点-mylog为文件夹名称-可自行修改">执行命令建立我的blog站点（mylog为文件夹名称，可自行修改）</h4>
+
+<pre><code>hugo new site myblog
+</code></pre>
+
+<ul>
+<li>## <strong><em>下载自己喜欢的hugo模板</em></strong></li>
+</ul>
+
+<h4 id="首先进入我的博客的根目录">首先进入我的博客的根目录</h4>
+
+<pre><code>cd myblog/
+</code></pre>
+
+<h4 id="进入-hugo主题-https-themes-gohugo-io-选择一款自己喜欢的模板">进入<a href="https://themes.gohugo.io/">hugo主题</a>，选择一款自己喜欢的模板。</h4>
+
+<h4 id="我选择是anotole-没有up主那种快捷下载命令-所以选择download-会跳转github页面-选择-clone-or-download-复制url链接">我选择是anotole，没有up主那种快捷下载命令，所以选择download，会跳转github页面，选择<strong><em>Clone or download</em></strong>，复制url链接</h4>
+
+<h4 id="再用git克隆到本地-这步我执行了很久-和网络有关">再用git克隆到本地（这步我执行了很久，和网络有关）</h4>
+
+<pre><code>git clone https://github.com/lxndrblz/anatole.git
+</code></pre>
+
+<h4 id="下载完后可以进入themes文件夹-查看是否有自己下载的主题-有即为成功">下载完后可以进入themes文件夹，查看是否有自己下载的主题，有即为成功。</h4>
+
+<ul>
+<li>## <strong><em>建立本地服务器</em></strong></li>
+</ul>
+
+<h4 id="首先回到博客的根目录-执行以下命令">首先回到博客的根目录，执行以下命令</h4>
+
+<pre><code>hugo server -t anatole --buildDrafts
+</code></pre>
+
+<h4 id="成功地话这里会出现">成功地话这里会出现</h4>
+
+<blockquote>
+<p>Web Server is available at <a href="http://localhost:1313/">http://localhost:1313/</a> (bind address 127.0.0.1)</p>
+
+<h4 id="这时就可以复制链接http-localhost-1313-到浏览器看一下是否成功了">这时就可以复制链接<a href="http://localhost:1313/到浏览器看一下是否成功了。">http://localhost:1313/到浏览器看一下是否成功了。</a></h4>
+</blockquote>
+
+<ul>
+<li>## <strong><em>新建第一篇博客</em></strong></li>
+</ul>
+
+<h4 id="本地部署好-可以建立我的第一篇博客了-命令如下">本地部署好，可以建立我的第一篇博客了，命令如下：</h4>
+
+<pre><code>hugo new post/blog.md
+</code></pre>
+
+<h4 id="现在content-post-文件夹下应该会出现一个名为blog的md文件-现在就可以使用其他编辑器打开写自己的博客了">现在content/post/文件夹下应该会出现一个名为blog的md文件，现在就可以使用其他编辑器打开写自己的博客了。</h4>
+
+<ul>
+<li>## <strong><em>部署到github服务器</em></strong></li>
+</ul>
+
+<h4 id="首先到github新建一个仓库-名字必须是和自己用户名一样-且是全小写-github-io后缀">首先到github新建一个仓库，名字必须是和自己用户名一样，且是全小写+.github.io后缀。</h4>
+
+<pre><code> hugo --theme=anatole --baseUrl=&quot;https://zhenggengqiong.github.io/&quot; --buildDrafts
+</code></pre>
+
+<h4 id="这里的url地址换成自己建立的即可">这里的url地址换成自己建立的即可。</h4>
+
+<h4 id="这时博客根目录会出现一个新的public文件夹-现在要把这个文件夹部署到github-分别执行以下命令">这时博客根目录会出现一个新的public文件夹，现在要把这个文件夹部署到github，分别执行以下命令。</h4>
+
+<pre><code>git init
+</code></pre>
+
+<pre><code>git add .
+</code></pre>
+
+<pre><code>git commit -m &quot;我的hogo博客第一次提交&quot;
+</code></pre>
+
+<ul>
+<li>## <strong><em>推到远端服务器</em></strong></li>
+</ul>
+
+<h4 id="首先要和我们的github关联">首先要和我们的github关联</h4>
+
+<pre><code>git remote add origin https://github.com/zhenggengqiong/zhenggengqiong.github.io.git
+</code></pre>
+
+<h4 id="再执行命令推到远端-这样就可以用网址访问博客了">再执行命令推到远端，这样就可以用网址访问博客了。</h4>
+
+<pre><code>git push -u origin master
+</code></pre>
+
+<h4 id="过程中会提示输入github的用户名及密码">过程中会提示输入github的用户名及密码</h4>
+
+<h4 id="成功之后-就可以用你自己的网址访问博客啦-https-zhenggengqiong-github-io">成功之后，就可以用你自己的网址访问博客啦。<a href="https://zhenggengqiong.github.io/">https://zhenggengqiong.github.io/</a></h4>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://zhenggengqiong.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw="></script>
+
+
+
+
+<script type="text/javascript" src="https://zhenggengqiong.github.io/js/bundle.min.29019d55dba1c296a56403ba7d130703f0abd53dac253acbeca09ecff9a099ec.js" integrity="sha256-KQGdVduhwpalZAO6fRMHA/Cr1T2sJTrL7KCez/mgmew="></script>
+
+<script type="text/javascript" src="https://zhenggengqiong.github.io/js/medium-zoom.min.7487768bffcc6aee437cf6a4ac7da5d2ffc61dc63b36316a14122ceb26b34c70.js" integrity="sha256-dId2i//Mau5DfPakrH2l0v/GHcY7NjFqFBIs6yazTHA="></script>
+
+<link rel="stylesheet" href="https://zhenggengqiong.github.io/css/medium-zoom.min.a1468f7a1cce6fe96c4b5483cb4645b85728a32b3abbd598c375a92df16230ef.css" integrity="sha256-oUaPehzOb&#43;lsS1SDy0ZFuFcooys6u9WYw3WpLfFiMO8=" type="text/css"></html></body>
+
+</html>

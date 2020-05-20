@@ -6,10 +6,20 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 May 2020 22:36:33 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 10:03:39 +0800</lastBuildDate>
     
 	<atom:link href="https://zhenggengqiong.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基于Hugo的个人博客搭建(mac)</title>
+      <link>https://zhenggengqiong.github.io/post/blog02/</link>
+      <pubDate>Wed, 20 May 2020 10:03:39 +0800</pubDate>
+      
+      <guid>https://zhenggengqiong.github.io/post/blog02/</guid>
+      <description>博客是个人学习总结的利器，尤其是互联网知识。以前试着在CSDN写过一些总结，但肯定没有个人博客来的炫酷😝 每次百度技术性的问题，前几名不再是百度知道而是各种博客的总结。现在互联网的发展速度、知识多样化、碎片化，如果不及时进行总结，过一阵还是会去百度问题答案的。  “对任何渴望进步的人来说，写博客/文章/回答对自己的成长帮助都是巨大的。频率和数量不必过分强求，有话要说就写写，没事就歇歇，随意点。因为坚持写作的那一刻起，你就已经开始受益。”
+ 此篇博客搭建根据B站up「CodeSheep」教程 采用Hugo框架下的anatole模板，部署于GitHub  ## 前提准备  安装有 git、brew  ## 下载Hugo  这里Up主采用的方式是brew命令下载，如果是win或网络不好下不来，可以去github找hugo自行下载对应版本 brew install hugo  下载完后输入hugo version，正常显示版本则表示安装成功  ## 建立我的blog站点  执行命令建立我的blog站点（mylog为文件夹名称，可自行修改） hugo new site myblog   ## 下载自己喜欢的hugo模板  首先进入我的博客的根目录 cd myblog/  进入hugo主题，选择一款自己喜欢的模板。 我选择是anotole，没有up主那种快捷下载命令，所以选择download，会跳转github页面，选择Clone or download，复制url链接 再用git克隆到本地（这步我执行了很久，和网络有关） git clone https://github.com/lxndrblz/anatole.git  下载完后可以进入themes文件夹，查看是否有自己下载的主题，有即为成功。  ## 建立本地服务器  首先回到博客的根目录，执行以下命令 hugo server -t anatole --buildDrafts  成功地话这里会出现  Web Server is available at http://localhost:1313/ (bind address 127.</description>
+    </item>
     
     <item>
       <title>Hello myblog</title>
